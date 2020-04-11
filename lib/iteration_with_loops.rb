@@ -6,7 +6,9 @@ i = 0
 while i < src.length do
    n = 0 
    while n < src[i].length do
-     p src[i][n]
+     if src[i][n].even?
+       p src[i][n]
+     end
      n += 1
    end
   i += 1 
